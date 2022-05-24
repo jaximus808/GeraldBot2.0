@@ -14,7 +14,6 @@ const globaldata = require("./globalData")
 
 const commands = globaldata.commands
 
-
 client.on("messageCreate", message =>
 {
     if(!message.content.startsWith(prefix) || message.author.bot) return
